@@ -6,7 +6,7 @@ public class Main {
     }
 
     public static void printNumbers(int limit) {
-        for (int i = 0; i < limit; i+=2) {
+        for (int i = 0; i <= limit; i++) {
             System.out.println(i);
         }
     }
